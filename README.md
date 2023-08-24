@@ -47,7 +47,7 @@ const libraryInstance = new MyLibrary();
 ### self-host/cdn
 
 ```
-<script src="build/index.js"></script>
+<script src="dist/index.js"></script>
 
 const MyLibrary = window.MyLibrary.default;
 const libraryInstance = new MyLibrary();
