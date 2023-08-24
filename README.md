@@ -9,6 +9,8 @@ Minimal Library Starter Kit for your Typescript projects
 - VanillaJS
 - Typescript
 - Pure CSS
+- Less
+- Scss
 - Autoprefixer (postcss-loader)
 - Assets(public)
 - Minimization(Image, HTML, CSS, JS) on production
