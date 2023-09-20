@@ -17,6 +17,11 @@ export const config: Configuration = {
         exclude: /(node_modules|bower_components)/,
       },
       {
+        test: /\.(ts|js)x?$/,
+        exclude: /node_modules/,
+        use: [{ loader: "babel-loader" }],
+      },
+      {
         test: /\.css$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
